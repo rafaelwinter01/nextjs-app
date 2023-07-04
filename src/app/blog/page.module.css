@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* .content:nth-child(even) {
+  flex-direction: row-reverse;
+} */
+
+.title {
+  font-size: 24px;
+}
+
+.article {
+  text-align: justify;
+}
+
+.image {
+  border: 2px solid #53c28b;
+  padding: 5px;
+}

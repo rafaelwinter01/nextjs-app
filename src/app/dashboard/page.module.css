@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.posts {
+  flex: 1;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.imgContainer {
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+
+.postcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.deleteButton {
+  background-color: red;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: #bbb;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.newpost {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input,
+.text {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  color: #bbb;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #53c28b;
+  border: none;
+  color: #eee;
+  font-weight: bold;
+  font-size: 16px;
+}
